@@ -13,4 +13,3 @@ Aspose.Tasks for Cloud is implemented as a REST API. If you use SDK, it hides th
 Directory | Description
 --------- | -----------
 [Java SDK](https://github.com/asposetasks/Aspose_Tasks_Cloud/tree/master/SDKs/Aspose.Tasks_Cloud_SDK_for_Java)  |  Aspose.Tasks for Cloud Java SDK.
-[PHP SDK](https://github.com/asposetasks/Aspose_Tasks_Cloud/tree/master/SDKs/Aspose.Tasks_Cloud_SDK_for_PHP)  | Aspose.Tasks for Cloud PHP SDK.
