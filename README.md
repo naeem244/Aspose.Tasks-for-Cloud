@@ -1,4 +1,4 @@
-# Aspose.Tasks for Cloud Repository
+# Aspose.Tasks for Cloud
 This repository contains examples and SDKs for [Aspose.Tasks for Cloud](http://www.aspose.com/cloud/project-management-api.aspx).
 
 ## Why SDKs?
