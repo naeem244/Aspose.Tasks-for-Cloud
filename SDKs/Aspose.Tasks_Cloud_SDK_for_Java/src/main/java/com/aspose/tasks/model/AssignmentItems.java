@@ -3,27 +3,18 @@ package com.aspose.tasks.model;
 import java.util.*;
 import com.aspose.tasks.model.Link;
 public class AssignmentItems {
-  private List<AssignmentItem> List = new ArrayList<AssignmentItem>();
+  private List<AssignmentItem> AssignmentItem = new ArrayList<AssignmentItem>();
   private Link link = null;
-  /**
-	 * getList
-	 * Gets List<AssignmentItem>
-	 * @return List
-	 */
-  public List<AssignmentItem> getList() {
-    return List;
-  }
 
-	/**
-	 * setList
-	 * Sets List<AssignmentItem>
-	 * @param List List<AssignmentItem>
-	 */
-  public void setList(List<AssignmentItem> List) {
-    this.List = List;
-  }
+  public List<AssignmentItem> getAssignmentItem() {
+   return AssignmentItem;
+}
 
-  /**
+public void setAssignmentItem(List<AssignmentItem> assignmentItem) {
+   AssignmentItem = assignmentItem;
+}
+
+/**
 	 * getLink
 	 * Gets Link
 	 * @return link
@@ -40,15 +31,6 @@ public class AssignmentItems {
   public void setLink(Link link) {
     this.link = link;
   }
-
-  @Override
-  public String toString()  {
-    StringBuilder sb = new StringBuilder();
-    sb.append("class AssignmentItems {\n");
-    sb.append("  List: ").append(List).append("\n");
-    sb.append("  link: ").append(link).append("\n");
-    sb.append("}\n");
-    return sb.toString();
-  }
+ 
 }
 

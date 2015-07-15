@@ -206,7 +206,7 @@ try {
 	* @return AssignmentItemsResponse
 	*/
 
-  public AssignmentItemsResponse GetProjectAssignments (String name, String storage, String folder) {
+  public AssignmentsResponse GetProjectAssignments (String name, String storage, String folder) {
     Object postBody = null;
     // verify required params are set
     if(name == null ) {
@@ -239,7 +239,7 @@ try {
 
 try {
 		response = apiInvoker.invokeAPI(basePath, resourcePath, "GET", queryParams, postBody, headerParams, formParams, contentType);
-		return (AssignmentItemsResponse) ApiInvoker.deserialize(response, "", AssignmentItemsResponse.class);
+		return (AssignmentsResponse) ApiInvoker.deserialize(response, "", AssignmentsResponse.class);
     } catch (ApiException ex) {
       if(ex.getCode() == 404) {
       	throw new ApiException(404, "");
