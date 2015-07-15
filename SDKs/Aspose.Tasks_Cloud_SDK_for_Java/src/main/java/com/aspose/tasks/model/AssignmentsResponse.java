@@ -1,29 +1,19 @@
 package com.aspose.tasks.model;
 
-import com.aspose.tasks.model.ResourceAssignments;
 public class AssignmentsResponse {
-  private ResourceAssignments Assignments = null;
+  private AssignmentItems Assignments = null;
   private String Code = null;
   private String Status = null;
-  /**
-	 * getAssignments
-	 * Gets ResourceAssignments
-	 * @return Assignments
-	 */
-  public ResourceAssignments getAssignments() {
-    return Assignments;
-  }
+  
+  public AssignmentItems getAssignments() {
+   return Assignments;
+}
 
-	/**
-	 * setAssignments
-	 * Sets ResourceAssignments
-	 * @param Assignments ResourceAssignments
-	 */
-  public void setAssignments(ResourceAssignments Assignments) {
-    this.Assignments = Assignments;
-  }
+public void setAssignments(AssignmentItems assignments) {
+   Assignments = assignments;
+}
 
-  /**
+/**
 	 * getCode
 	 * Gets String
 	 * @return Code

@@ -2,28 +2,19 @@ package com.aspose.tasks.model;
 
 import com.aspose.tasks.model.CalendarItems;
 public class CalendarItemsResponse {
-  private CalendarItems Items = null;
+  private CalendarItems Calendars = null;
   private String Code = null;
   private String Status = null;
-  /**
-	 * getItems
-	 * Gets CalendarItems
-	 * @return Items
-	 */
-  public CalendarItems getItems() {
-    return Items;
-  }
+  
+  public CalendarItems getCalendars() {
+   return Calendars;
+}
 
-	/**
-	 * setItems
-	 * Sets CalendarItems
-	 * @param Items CalendarItems
-	 */
-  public void setItems(CalendarItems Items) {
-    this.Items = Items;
-  }
+public void setCalendars(CalendarItems calendars) {
+   Calendars = calendars;
+}
 
-  /**
+/**
 	 * getCode
 	 * Gets String
 	 * @return Code
@@ -59,15 +50,6 @@ public class CalendarItemsResponse {
     this.Status = Status;
   }
 
-  @Override
-  public String toString()  {
-    StringBuilder sb = new StringBuilder();
-    sb.append("class CalendarItemsResponse {\n");
-    sb.append("  Items: ").append(Items).append("\n");
-    sb.append("  Code: ").append(Code).append("\n");
-    sb.append("  Status: ").append(Status).append("\n");
-    sb.append("}\n");
-    return sb.toString();
-  }
+  
 }
 

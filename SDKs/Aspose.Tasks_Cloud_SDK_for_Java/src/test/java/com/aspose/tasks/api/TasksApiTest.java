@@ -128,7 +128,7 @@ public class TasksApiTest {
 		String folder = "";
 
 		try {
-			AssignmentItemsResponse result = tasksApi.GetProjectAssignments(name, storage, folder);
+			AssignmentsResponse result = tasksApi.GetProjectAssignments(name, storage, folder);
 
 		} catch (ApiException apiExp) {
 			System.out.println("exp:" + apiExp.getMessage());
