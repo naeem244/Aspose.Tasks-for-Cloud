@@ -12,13 +12,13 @@ class AssignmentItems(object):
           attributeMap (dict): The key is attribute name and the value is json key in definition.
         """
         self.swaggerTypes = {
-            'List': 'list[AssignmentItem]',
+            'AssignmentItem': 'list[AssignmentItem]',
             'link': 'Link'
 
         }
 
         self.attributeMap = {
-            'List': 'List','link': 'link'}       
+            'AssignmentItem': 'AssignmentItem','link': 'link'}       
 
         self.List = None # list[AssignmentItem]
         self.link = None # Link

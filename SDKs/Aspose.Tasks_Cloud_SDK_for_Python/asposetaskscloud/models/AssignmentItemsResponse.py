@@ -12,14 +12,14 @@ class AssignmentItemsResponse(object):
           attributeMap (dict): The key is attribute name and the value is json key in definition.
         """
         self.swaggerTypes = {
-            'Items': 'AssignmentItems',
+            'Assignments': 'AssignmentItems',
             'Code': 'str',
             'Status': 'str'
 
         }
 
         self.attributeMap = {
-            'Items': 'Items','Code': 'Code','Status': 'Status'}       
+            'Assignments': 'Assignments','Code': 'Code','Status': 'Status'}       
 
         self.Items = None # AssignmentItems
         self.Code = None # str
