@@ -9,7 +9,7 @@ setup(
     description = 'Aspose.Tasks Cloud SDK for Python allows you to use Aspose.Tasks APIs in your Python applications',
     author='Farooq Sheikh',
     author_email='farooq.sheikh@aspose.com',
-    url='http://www.aspose.com/cloud/powerpoint-api.aspx',
+    url='http://www.aspose.com/cloud/project-management-api.aspx',
     install_requires=[
         'asposestoragecloud',
     ],    
