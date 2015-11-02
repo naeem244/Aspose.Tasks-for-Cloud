@@ -909,8 +909,68 @@ class TasksApi {
 
         $responseObject = $this->apiClient->deserialize($response, 'TaskItemsResponse');
         return $responseObject;
-    }
 
+    }
+	/**
+	 * GetProjectWbsDefinition
+	 * 
+	* name, string:  (required)
+
+	* storage, string:  (optional)
+
+	* folder, string:  (optional)
+
+	* @return WBSDefinitionResponse
+	 */
+   
+	public function GetProjectWbsDefinition($name, $storage=null, $folder=null) {
+		// verify required params are set
+		if($name == '' ) {
+			throw new Exception("missing required params");
+		}
+		//parse inputs
+		$resourcePath = "/tasks/{name}/wbsDefinition/?appSid={appSid}&amp;storage={storage}&amp;folder={folder}";
+		//$resourcePath = str_replace("{format}", "json", $resourcePath);
+		$resourcePath = str_replace("toFormat={toFormat}", "format={format}",str_replace("/?", "?",str_replace("&amp;", "&",str_replace("\\*", "",$resourcePath))));
+		$method = "GET";
+		$queryParams = array();
+		$headerParams = array();
+		$headerParams['Accept'] = 'application/xml,application/octet-stream';
+		$headerParams['Content-Type'] = 'application/json';
+
+		if($name != null) {
+			$resourcePath = str_replace("{" . "name" . "}" , $this->apiClient->toQueryValue($name), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&name={" . "name" . "}", "", $resourcePath);
+			}
+			if($storage != null) {
+			$resourcePath = str_replace("{" . "storage" . "}" , $this->apiClient->toQueryValue($storage), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&storage={" . "storage" . "}", "", $resourcePath);
+			}
+			if($folder != null) {
+			$resourcePath = str_replace("{" . "folder" . "}" , $this->apiClient->toQueryValue($folder), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&folder={" . "folder" . "}", "", $resourcePath);
+			}
+			//make the API Call
+		if (! isset($body)) {
+			$body = null;
+		}
+		if(isset($file)) {
+			$body = $file;
+		}
+		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, $body, $headerParams);
+
+		if(! $response){
+			return null;
+		}
+
+		$responseObject = $this->apiClient->deserialize($response,
+															'WBSDefinitionResponse');
+		return $responseObject;
+
+		}
     /**
      * GetTaskDocument
      * Represents a project document.
@@ -2343,8 +2403,75 @@ class TasksApi {
 
         $responseObject = $this->apiClient->deserialize($response, 'AssignmentsResponse');
         return $responseObject;
-    }
 
+    }
+	/**
+	 * GetTaskRecurringInfo
+	 * 
+	* name, string:  (required)
+
+	* taskUid, int:  (required)
+
+	* storage, string:  (optional)
+
+	* folder, string:  (optional)
+
+	* @return RecurringInfoResponse
+	 */
+   
+	public function GetTaskRecurringInfo($name, $taskUid, $storage=null, $folder=null) {
+		// verify required params are set
+		if($name == '' || $taskUid == '' ) {
+			throw new Exception("missing required params");
+		}
+		//parse inputs
+		$resourcePath = "/tasks/{name}/tasks/{taskUid}/recurringInfo/?appSid={appSid}&amp;storage={storage}&amp;folder={folder}";
+		//$resourcePath = str_replace("{format}", "json", $resourcePath);
+		$resourcePath = str_replace("toFormat={toFormat}", "format={format}",str_replace("/?", "?",str_replace("&amp;", "&",str_replace("\\*", "",$resourcePath))));
+		$method = "GET";
+		$queryParams = array();
+		$headerParams = array();
+		$headerParams['Accept'] = 'application/xml,application/json';
+		$headerParams['Content-Type'] = 'application/json';
+
+		if($name != null) {
+			$resourcePath = str_replace("{" . "name" . "}" , $this->apiClient->toQueryValue($name), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&name={" . "name" . "}", "", $resourcePath);
+			}
+			if($taskUid != null) {
+			$resourcePath = str_replace("{" . "taskUid" . "}" , $this->apiClient->toQueryValue($taskUid), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&taskUid={" . "taskUid" . "}", "", $resourcePath);
+			}
+			if($storage != null) {
+			$resourcePath = str_replace("{" . "storage" . "}" , $this->apiClient->toQueryValue($storage), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&storage={" . "storage" . "}", "", $resourcePath);
+			}
+			if($folder != null) {
+			$resourcePath = str_replace("{" . "folder" . "}" , $this->apiClient->toQueryValue($folder), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&folder={" . "folder" . "}", "", $resourcePath);
+			}
+			//make the API Call
+		if (! isset($body)) {
+			$body = null;
+		}
+		if(isset($file)) {
+			$body = $file;
+		}
+		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, $body, $headerParams);
+
+		if(! $response){
+			return null;
+		}
+
+		$responseObject = $this->apiClient->deserialize($response,
+															'RecurringInfoResponse');
+		return $responseObject;
+
+		}
     /**
      * PostProjectTask
      * Add a new task to a project.
@@ -2422,8 +2549,89 @@ class TasksApi {
 
         $responseObject = $this->apiClient->deserialize($response, 'TaskItemResponse');
         return $responseObject;
-    }
 
+    }
+	/**
+	 * PutMoveTask
+	 * 
+	* name, string:  (required)
+
+	* taskUid, int:  (required)
+
+	* parentTaskUid, int:  (required)
+
+	* fileName, string:  (optional)
+
+	* storage, string:  (optional)
+
+	* folder, string:  (optional)
+
+	* @return SaaSposeResponse
+	 */
+   
+	public function PutMoveTask($name, $taskUid, $parentTaskUid, $fileName=null, $storage=null, $folder=null) {
+		// verify required params are set
+		if($name == '' || $taskUid == '' || $parentTaskUid == '' ) {
+			throw new Exception("missing required params");
+		}
+		//parse inputs
+		$resourcePath = "/tasks/{name}/tasks/{taskUid}/move/?parentTaskUid={parentTaskUid}&amp;appSid={appSid}&amp;fileName={fileName}&amp;storage={storage}&amp;folder={folder}";
+		//$resourcePath = str_replace("{format}", "json", $resourcePath);
+		$resourcePath = str_replace("toFormat={toFormat}", "format={format}",str_replace("/?", "?",str_replace("&amp;", "&",str_replace("\\*", "",$resourcePath))));
+		$method = "PUT";
+		$queryParams = array();
+		$headerParams = array();
+		$headerParams['Accept'] = 'application/xml,application/json';
+		$headerParams['Content-Type'] = 'application/json';
+
+		if($name != null) {
+			$resourcePath = str_replace("{" . "name" . "}" , $this->apiClient->toQueryValue($name), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&name={" . "name" . "}", "", $resourcePath);
+			}
+			if($taskUid != null) {
+			$resourcePath = str_replace("{" . "taskUid" . "}" , $this->apiClient->toQueryValue($taskUid), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&taskUid={" . "taskUid" . "}", "", $resourcePath);
+			}
+			if($parentTaskUid != null) {
+			$resourcePath = str_replace("{" . "parentTaskUid" . "}" , $this->apiClient->toQueryValue($parentTaskUid), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&parentTaskUid={" . "parentTaskUid" . "}", "", $resourcePath);
+			}
+			if($fileName != null) {
+			$resourcePath = str_replace("{" . "fileName" . "}" , $this->apiClient->toQueryValue($fileName), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&fileName={" . "fileName" . "}", "", $resourcePath);
+			}
+			if($storage != null) {
+			$resourcePath = str_replace("{" . "storage" . "}" , $this->apiClient->toQueryValue($storage), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&storage={" . "storage" . "}", "", $resourcePath);
+			}
+			if($folder != null) {
+			$resourcePath = str_replace("{" . "folder" . "}" , $this->apiClient->toQueryValue($folder), $resourcePath);
+			}else{
+				$resourcePath = str_replace("&folder={" . "folder" . "}", "", $resourcePath);
+			}
+			//make the API Call
+		if (! isset($body)) {
+			$body = null;
+		}
+		if(isset($file)) {
+			$body = $file;
+		}
+		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, $body, $headerParams);
+
+		if(! $response){
+			return null;
+		}
+
+		$responseObject = $this->apiClient->deserialize($response,
+															'SaaSposeResponse');
+		return $responseObject;
+
+		}
     /**
      * DeleteTaskLink
      * Updates task link.
