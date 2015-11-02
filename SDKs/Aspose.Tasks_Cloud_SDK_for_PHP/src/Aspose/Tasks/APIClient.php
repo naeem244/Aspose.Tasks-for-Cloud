@@ -192,10 +192,10 @@ class APIClient {
         } else if ($response_info['http_code'] == 404) {
             $data = null;
         } else {
-            /* throw new Exception("Can't connect to the api: " . $url .
+             throw new Exception("Can't connect to the api: " . $url .
               " response code: " .
-              $response_info['http_code']); */
-            echo "response code: " . $response_info['http_code'];
+              $response_info['http_code']); 
+            //echo "response code: " . $response_info['http_code'];
         }
 
         return $data;
@@ -327,7 +327,7 @@ class APIClient {
         return $instance;
     }
 
-    public function isJson($string) {
+    public static function isJson($string) {
         return is_string($string) && is_object(json_decode($string)) && (json_last_error() == JSON_ERROR_NONE) ? true : false;
     }
 
