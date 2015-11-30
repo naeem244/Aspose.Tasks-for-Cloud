@@ -15,6 +15,7 @@ Directory | Description
 [Java SDK](https://github.com/asposetasks/Aspose_Tasks_Cloud/tree/master/SDKs/Aspose.Tasks_Cloud_SDK_for_Java)  |  Aspose.Tasks Cloud SDK for Java.
 [PHP SDK](https://github.com/asposetasks/Aspose_Tasks_Cloud/tree/master/SDKs/Aspose.Tasks_Cloud_SDK_for_PHP)  |  Aspose.Tasks Cloud SDK for PHP.
 [Python SDK](https://github.com/asposetasks/Aspose_Tasks_Cloud/tree/master/SDKs/Aspose.Tasks_Cloud_SDK_for_Python)  |  Aspose.Tasks Cloud SDK for Python.
+[iOS SDK](https://github.com/asposetasks/Aspose_Tasks_Cloud/tree/master/SDKs/Aspose.Tasks_Cloud_SDK_For_Objective_C) | Aspose.Tasks Cloud SDK for Objective C
 
 ## Resources
 
