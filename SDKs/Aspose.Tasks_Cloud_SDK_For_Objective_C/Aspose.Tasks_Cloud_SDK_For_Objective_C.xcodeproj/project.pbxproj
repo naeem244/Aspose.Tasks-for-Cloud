@@ -13,7 +13,6 @@
 		304770141C0C7DED00282E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304770121C0C7DED00282E75 /* Main.storyboard */; };
 		304770161C0C7DED00282E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304770151C0C7DED00282E75 /* Assets.xcassets */; };
 		304770191C0C7DED00282E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304770171C0C7DED00282E75 /* LaunchScreen.storyboard */; };
-		304770241C0C7DED00282E75 /* Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770231C0C7DED00282E75 /* Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m */; };
 		304770AB1C0C7F7200282E75 /* ASPTasksApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770311C0C7F7200282E75 /* ASPTasksApi.m */; };
 		304770AC1C0C7F7200282E75 /* ASPAssignmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770341C0C7F7200282E75 /* ASPAssignmentItem.m */; };
 		304770AD1C0C7F7200282E75 /* ASPAssignmentItemResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770361C0C7F7200282E75 /* ASPAssignmentItemResponse.m */; };
@@ -110,7 +109,6 @@
 		304770181C0C7DED00282E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3047701A1C0C7DED00282E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3047701F1C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aspose.Tasks_Cloud_SDK_For_Objective_CTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		304770231C0C7DED00282E75 /* Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m; sourceTree = "<group>"; };
 		304770251C0C7DED00282E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		304770301C0C7F7200282E75 /* ASPTasksApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTasksApi.h; sourceTree = "<group>"; };
 		304770311C0C7F7200282E75 /* ASPTasksApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTasksApi.m; sourceTree = "<group>"; };
@@ -308,7 +306,6 @@
 			children = (
 				304770E81C0C7F7E00282E75 /* resources */,
 				304770EE1C0C7F7E00282E75 /* tasks */,
-				304770231C0C7DED00282E75 /* Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m */,
 				304770251C0C7DED00282E75 /* Info.plist */,
 			);
 			path = Aspose.Tasks_Cloud_SDK_For_Objective_CTests;
@@ -661,7 +658,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				304770F51C0C7F7E00282E75 /* ASPTasksApiTestCase.m in Sources */,
-				304770241C0C7DED00282E75 /* Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,6 +838,7 @@
 				3047702A1C0C7DED00282E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3047702B1C0C7DED00282E75 /* Build configuration list for PBXNativeTarget "Aspose.Tasks_Cloud_SDK_For_Objective_CTests" */ = {
 			isa = XCConfigurationList;
@@ -850,6 +847,7 @@
 				3047702D1C0C7DED00282E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
