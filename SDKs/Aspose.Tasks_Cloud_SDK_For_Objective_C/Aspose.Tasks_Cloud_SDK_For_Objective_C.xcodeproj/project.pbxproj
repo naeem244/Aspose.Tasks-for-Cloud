@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3047700B1C0C7DED00282E75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047700A1C0C7DED00282E75 /* main.m */; };
+		3047700E1C0C7DED00282E75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047700D1C0C7DED00282E75 /* AppDelegate.m */; };
+		304770111C0C7DED00282E75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770101C0C7DED00282E75 /* ViewController.m */; };
+		304770141C0C7DED00282E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304770121C0C7DED00282E75 /* Main.storyboard */; };
+		304770161C0C7DED00282E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304770151C0C7DED00282E75 /* Assets.xcassets */; };
+		304770191C0C7DED00282E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304770171C0C7DED00282E75 /* LaunchScreen.storyboard */; };
+		304770241C0C7DED00282E75 /* Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770231C0C7DED00282E75 /* Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m */; };
+		304770AB1C0C7F7200282E75 /* ASPTasksApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770311C0C7F7200282E75 /* ASPTasksApi.m */; };
+		304770AC1C0C7F7200282E75 /* ASPAssignmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770341C0C7F7200282E75 /* ASPAssignmentItem.m */; };
+		304770AD1C0C7F7200282E75 /* ASPAssignmentItemResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770361C0C7F7200282E75 /* ASPAssignmentItemResponse.m */; };
+		304770AE1C0C7F7200282E75 /* ASPAssignmentItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770381C0C7F7200282E75 /* ASPAssignmentItems.m */; };
+		304770AF1C0C7F7200282E75 /* ASPAssignmentItemsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047703A1C0C7F7200282E75 /* ASPAssignmentItemsResponse.m */; };
+		304770B01C0C7F7200282E75 /* ASPAssignmentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047703C1C0C7F7200282E75 /* ASPAssignmentResponse.m */; };
+		304770B11C0C7F7200282E75 /* ASPAssignmentsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047703E1C0C7F7200282E75 /* ASPAssignmentsResponse.m */; };
+		304770B21C0C7F7200282E75 /* ASPCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770401C0C7F7200282E75 /* ASPCalendar.m */; };
+		304770B31C0C7F7200282E75 /* ASPCalendarException.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770421C0C7F7200282E75 /* ASPCalendarException.m */; };
+		304770B41C0C7F7200282E75 /* ASPCalendarExceptionsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770441C0C7F7200282E75 /* ASPCalendarExceptionsResponse.m */; };
+		304770B51C0C7F7200282E75 /* ASPCalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770461C0C7F7200282E75 /* ASPCalendarItem.m */; };
+		304770B61C0C7F7200282E75 /* ASPCalendarItemResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770481C0C7F7200282E75 /* ASPCalendarItemResponse.m */; };
+		304770B71C0C7F7200282E75 /* ASPCalendarItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047704A1C0C7F7200282E75 /* ASPCalendarItems.m */; };
+		304770B81C0C7F7200282E75 /* ASPCalendarItemsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047704C1C0C7F7200282E75 /* ASPCalendarItemsResponse.m */; };
+		304770B91C0C7F7200282E75 /* ASPCalendarResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047704E1C0C7F7200282E75 /* ASPCalendarResponse.m */; };
+		304770BA1C0C7F7200282E75 /* ASPDocumentProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770501C0C7F7200282E75 /* ASPDocumentProperties.m */; };
+		304770BB1C0C7F7200282E75 /* ASPDocumentPropertiesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770521C0C7F7200282E75 /* ASPDocumentPropertiesResponse.m */; };
+		304770BC1C0C7F7200282E75 /* ASPDocumentProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770541C0C7F7200282E75 /* ASPDocumentProperty.m */; };
+		304770BD1C0C7F7200282E75 /* ASPDocumentPropertyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770561C0C7F7200282E75 /* ASPDocumentPropertyResponse.m */; };
+		304770BE1C0C7F7200282E75 /* ASPExtendedAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770581C0C7F7200282E75 /* ASPExtendedAttribute.m */; };
+		304770BF1C0C7F7200282E75 /* ASPExtendedAttributeDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047705A1C0C7F7200282E75 /* ASPExtendedAttributeDefinition.m */; };
+		304770C01C0C7F7200282E75 /* ASPExtendedAttributeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047705C1C0C7F7200282E75 /* ASPExtendedAttributeItem.m */; };
+		304770C11C0C7F7200282E75 /* ASPExtendedAttributeItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047705E1C0C7F7200282E75 /* ASPExtendedAttributeItems.m */; };
+		304770C21C0C7F7200282E75 /* ASPExtendedAttributeItemsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770601C0C7F7200282E75 /* ASPExtendedAttributeItemsResponse.m */; };
+		304770C31C0C7F7200282E75 /* ASPExtendedAttributeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770621C0C7F7200282E75 /* ASPExtendedAttributeResponse.m */; };
+		304770C41C0C7F7200282E75 /* ASPLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770641C0C7F7200282E75 /* ASPLink.m */; };
+		304770C51C0C7F7200282E75 /* ASPOutlineCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770661C0C7F7200282E75 /* ASPOutlineCode.m */; };
+		304770C61C0C7F7200282E75 /* ASPOutlineCodeDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770681C0C7F7200282E75 /* ASPOutlineCodeDefinition.m */; };
+		304770C71C0C7F7200282E75 /* ASPOutlineCodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047706A1C0C7F7200282E75 /* ASPOutlineCodeItem.m */; };
+		304770C81C0C7F7200282E75 /* ASPOutlineCodeItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047706C1C0C7F7200282E75 /* ASPOutlineCodeItems.m */; };
+		304770C91C0C7F7200282E75 /* ASPOutlineCodeItemsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047706E1C0C7F7200282E75 /* ASPOutlineCodeItemsResponse.m */; };
+		304770CA1C0C7F7200282E75 /* ASPOutlineCodeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770701C0C7F7200282E75 /* ASPOutlineCodeResponse.m */; };
+		304770CB1C0C7F7200282E75 /* ASPOutlineMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770721C0C7F7200282E75 /* ASPOutlineMask.m */; };
+		304770CC1C0C7F7200282E75 /* ASPOutlineValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770741C0C7F7200282E75 /* ASPOutlineValue.m */; };
+		304770CD1C0C7F7200282E75 /* ASPRecurringInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770761C0C7F7200282E75 /* ASPRecurringInfo.m */; };
+		304770CE1C0C7F7200282E75 /* ASPRecurringInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770781C0C7F7200282E75 /* ASPRecurringInfoResponse.m */; };
+		304770CF1C0C7F7200282E75 /* ASPResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047707A1C0C7F7200282E75 /* ASPResource.m */; };
+		304770D01C0C7F7200282E75 /* ASPResourceAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047707C1C0C7F7200282E75 /* ASPResourceAssignment.m */; };
+		304770D11C0C7F7200282E75 /* ASPResourceAssignments.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047707E1C0C7F7200282E75 /* ASPResourceAssignments.m */; };
+		304770D21C0C7F7200282E75 /* ASPResourceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770801C0C7F7200282E75 /* ASPResourceItem.m */; };
+		304770D31C0C7F7200282E75 /* ASPResourceItemResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770821C0C7F7200282E75 /* ASPResourceItemResponse.m */; };
+		304770D41C0C7F7200282E75 /* ASPResourceItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770841C0C7F7200282E75 /* ASPResourceItems.m */; };
+		304770D51C0C7F7200282E75 /* ASPResourceItemsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770861C0C7F7200282E75 /* ASPResourceItemsResponse.m */; };
+		304770D61C0C7F7200282E75 /* ASPResourceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770881C0C7F7200282E75 /* ASPResourceResponse.m */; };
+		304770D71C0C7F7200282E75 /* ASPTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047708A1C0C7F7200282E75 /* ASPTask.m */; };
+		304770D81C0C7F7200282E75 /* ASPTaskDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047708C1C0C7F7200282E75 /* ASPTaskDocument.m */; };
+		304770D91C0C7F7200282E75 /* ASPTaskDocumentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047708E1C0C7F7200282E75 /* ASPTaskDocumentResponse.m */; };
+		304770DA1C0C7F7200282E75 /* ASPTaskItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770901C0C7F7200282E75 /* ASPTaskItem.m */; };
+		304770DB1C0C7F7200282E75 /* ASPTaskItemResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770921C0C7F7200282E75 /* ASPTaskItemResponse.m */; };
+		304770DC1C0C7F7200282E75 /* ASPTaskItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770941C0C7F7200282E75 /* ASPTaskItems.m */; };
+		304770DD1C0C7F7200282E75 /* ASPTaskItemsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770961C0C7F7200282E75 /* ASPTaskItemsResponse.m */; };
+		304770DE1C0C7F7200282E75 /* ASPTaskLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770981C0C7F7200282E75 /* ASPTaskLink.m */; };
+		304770DF1C0C7F7200282E75 /* ASPTaskLinkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047709A1C0C7F7200282E75 /* ASPTaskLinkResponse.m */; };
+		304770E01C0C7F7200282E75 /* ASPTaskLinksResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047709C1C0C7F7200282E75 /* ASPTaskLinksResponse.m */; };
+		304770E11C0C7F7200282E75 /* ASPTaskResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047709E1C0C7F7200282E75 /* ASPTaskResponse.m */; };
+		304770E21C0C7F7200282E75 /* ASPValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770A01C0C7F7200282E75 /* ASPValue.m */; };
+		304770E31C0C7F7200282E75 /* ASPWBSCodeMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770A21C0C7F7200282E75 /* ASPWBSCodeMask.m */; };
+		304770E41C0C7F7200282E75 /* ASPWBSDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770A41C0C7F7200282E75 /* ASPWBSDefinition.m */; };
+		304770E51C0C7F7200282E75 /* ASPWBSDefinitionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770A61C0C7F7200282E75 /* ASPWBSDefinitionResponse.m */; };
+		304770E61C0C7F7200282E75 /* ASPWeekDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770A81C0C7F7200282E75 /* ASPWeekDay.m */; };
+		304770E71C0C7F7200282E75 /* ASPWorkingTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770AA1C0C7F7200282E75 /* ASPWorkingTime.m */; };
+		304770F01C0C7F7E00282E75 /* ExtendedAttribute.mpp in Resources */ = {isa = PBXBuildFile; fileRef = 304770E91C0C7F7E00282E75 /* ExtendedAttribute.mpp */; };
+		304770F11C0C7F7E00282E75 /* Outlinecode.mpp in Resources */ = {isa = PBXBuildFile; fileRef = 304770EA1C0C7F7E00282E75 /* Outlinecode.mpp */; };
+		304770F21C0C7F7E00282E75 /* ResourceWithExtAttribs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 304770EB1C0C7F7E00282E75 /* ResourceWithExtAttribs.xml */; };
+		304770F31C0C7F7E00282E75 /* sample-project-2.mpp in Resources */ = {isa = PBXBuildFile; fileRef = 304770EC1C0C7F7E00282E75 /* sample-project-2.mpp */; };
+		304770F41C0C7F7E00282E75 /* sample-project.mpp in Resources */ = {isa = PBXBuildFile; fileRef = 304770ED1C0C7F7E00282E75 /* sample-project.mpp */; };
+		304770F51C0C7F7E00282E75 /* ASPTasksApiTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 304770EF1C0C7F7E00282E75 /* ASPTasksApiTestCase.m */; };
+		304770F61C0C7F8500282E75 /* ExtendedAttribute.mpp in Resources */ = {isa = PBXBuildFile; fileRef = 304770E91C0C7F7E00282E75 /* ExtendedAttribute.mpp */; };
+		304770F71C0C7F8500282E75 /* Outlinecode.mpp in Resources */ = {isa = PBXBuildFile; fileRef = 304770EA1C0C7F7E00282E75 /* Outlinecode.mpp */; };
+		304770F81C0C7F8500282E75 /* ResourceWithExtAttribs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 304770EB1C0C7F7E00282E75 /* ResourceWithExtAttribs.xml */; };
+		304770F91C0C7F8500282E75 /* sample-project-2.mpp in Resources */ = {isa = PBXBuildFile; fileRef = 304770EC1C0C7F7E00282E75 /* sample-project-2.mpp */; };
+		304770FA1C0C7F8500282E75 /* sample-project.mpp in Resources */ = {isa = PBXBuildFile; fileRef = 304770ED1C0C7F7E00282E75 /* sample-project.mpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		304770201C0C7DED00282E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30476FFE1C0C7DED00282E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 304770051C0C7DED00282E75;
+			remoteInfo = Aspose.Tasks_Cloud_SDK_For_Objective_C;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		304770061C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aspose.Tasks_Cloud_SDK_For_Objective_C.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3047700A1C0C7DED00282E75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3047700C1C0C7DED00282E75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3047700D1C0C7DED00282E75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3047700F1C0C7DED00282E75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		304770101C0C7DED00282E75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		304770131C0C7DED00282E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		304770151C0C7DED00282E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		304770181C0C7DED00282E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3047701A1C0C7DED00282E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3047701F1C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aspose.Tasks_Cloud_SDK_For_Objective_CTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		304770231C0C7DED00282E75 /* Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m; sourceTree = "<group>"; };
+		304770251C0C7DED00282E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304770301C0C7F7200282E75 /* ASPTasksApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTasksApi.h; sourceTree = "<group>"; };
+		304770311C0C7F7200282E75 /* ASPTasksApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTasksApi.m; sourceTree = "<group>"; };
+		304770331C0C7F7200282E75 /* ASPAssignmentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPAssignmentItem.h; sourceTree = "<group>"; };
+		304770341C0C7F7200282E75 /* ASPAssignmentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPAssignmentItem.m; sourceTree = "<group>"; };
+		304770351C0C7F7200282E75 /* ASPAssignmentItemResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPAssignmentItemResponse.h; sourceTree = "<group>"; };
+		304770361C0C7F7200282E75 /* ASPAssignmentItemResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPAssignmentItemResponse.m; sourceTree = "<group>"; };
+		304770371C0C7F7200282E75 /* ASPAssignmentItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPAssignmentItems.h; sourceTree = "<group>"; };
+		304770381C0C7F7200282E75 /* ASPAssignmentItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPAssignmentItems.m; sourceTree = "<group>"; };
+		304770391C0C7F7200282E75 /* ASPAssignmentItemsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPAssignmentItemsResponse.h; sourceTree = "<group>"; };
+		3047703A1C0C7F7200282E75 /* ASPAssignmentItemsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPAssignmentItemsResponse.m; sourceTree = "<group>"; };
+		3047703B1C0C7F7200282E75 /* ASPAssignmentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPAssignmentResponse.h; sourceTree = "<group>"; };
+		3047703C1C0C7F7200282E75 /* ASPAssignmentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPAssignmentResponse.m; sourceTree = "<group>"; };
+		3047703D1C0C7F7200282E75 /* ASPAssignmentsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPAssignmentsResponse.h; sourceTree = "<group>"; };
+		3047703E1C0C7F7200282E75 /* ASPAssignmentsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPAssignmentsResponse.m; sourceTree = "<group>"; };
+		3047703F1C0C7F7200282E75 /* ASPCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPCalendar.h; sourceTree = "<group>"; };
+		304770401C0C7F7200282E75 /* ASPCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPCalendar.m; sourceTree = "<group>"; };
+		304770411C0C7F7200282E75 /* ASPCalendarException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPCalendarException.h; sourceTree = "<group>"; };
+		304770421C0C7F7200282E75 /* ASPCalendarException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPCalendarException.m; sourceTree = "<group>"; };
+		304770431C0C7F7200282E75 /* ASPCalendarExceptionsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPCalendarExceptionsResponse.h; sourceTree = "<group>"; };
+		304770441C0C7F7200282E75 /* ASPCalendarExceptionsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPCalendarExceptionsResponse.m; sourceTree = "<group>"; };
+		304770451C0C7F7200282E75 /* ASPCalendarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPCalendarItem.h; sourceTree = "<group>"; };
+		304770461C0C7F7200282E75 /* ASPCalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPCalendarItem.m; sourceTree = "<group>"; };
+		304770471C0C7F7200282E75 /* ASPCalendarItemResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPCalendarItemResponse.h; sourceTree = "<group>"; };
+		304770481C0C7F7200282E75 /* ASPCalendarItemResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPCalendarItemResponse.m; sourceTree = "<group>"; };
+		304770491C0C7F7200282E75 /* ASPCalendarItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPCalendarItems.h; sourceTree = "<group>"; };
+		3047704A1C0C7F7200282E75 /* ASPCalendarItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPCalendarItems.m; sourceTree = "<group>"; };
+		3047704B1C0C7F7200282E75 /* ASPCalendarItemsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPCalendarItemsResponse.h; sourceTree = "<group>"; };
+		3047704C1C0C7F7200282E75 /* ASPCalendarItemsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPCalendarItemsResponse.m; sourceTree = "<group>"; };
+		3047704D1C0C7F7200282E75 /* ASPCalendarResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPCalendarResponse.h; sourceTree = "<group>"; };
+		3047704E1C0C7F7200282E75 /* ASPCalendarResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPCalendarResponse.m; sourceTree = "<group>"; };
+		3047704F1C0C7F7200282E75 /* ASPDocumentProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPDocumentProperties.h; sourceTree = "<group>"; };
+		304770501C0C7F7200282E75 /* ASPDocumentProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPDocumentProperties.m; sourceTree = "<group>"; };
+		304770511C0C7F7200282E75 /* ASPDocumentPropertiesResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPDocumentPropertiesResponse.h; sourceTree = "<group>"; };
+		304770521C0C7F7200282E75 /* ASPDocumentPropertiesResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPDocumentPropertiesResponse.m; sourceTree = "<group>"; };
+		304770531C0C7F7200282E75 /* ASPDocumentProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPDocumentProperty.h; sourceTree = "<group>"; };
+		304770541C0C7F7200282E75 /* ASPDocumentProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPDocumentProperty.m; sourceTree = "<group>"; };
+		304770551C0C7F7200282E75 /* ASPDocumentPropertyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPDocumentPropertyResponse.h; sourceTree = "<group>"; };
+		304770561C0C7F7200282E75 /* ASPDocumentPropertyResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPDocumentPropertyResponse.m; sourceTree = "<group>"; };
+		304770571C0C7F7200282E75 /* ASPExtendedAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPExtendedAttribute.h; sourceTree = "<group>"; };
+		304770581C0C7F7200282E75 /* ASPExtendedAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPExtendedAttribute.m; sourceTree = "<group>"; };
+		304770591C0C7F7200282E75 /* ASPExtendedAttributeDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPExtendedAttributeDefinition.h; sourceTree = "<group>"; };
+		3047705A1C0C7F7200282E75 /* ASPExtendedAttributeDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPExtendedAttributeDefinition.m; sourceTree = "<group>"; };
+		3047705B1C0C7F7200282E75 /* ASPExtendedAttributeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPExtendedAttributeItem.h; sourceTree = "<group>"; };
+		3047705C1C0C7F7200282E75 /* ASPExtendedAttributeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPExtendedAttributeItem.m; sourceTree = "<group>"; };
+		3047705D1C0C7F7200282E75 /* ASPExtendedAttributeItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPExtendedAttributeItems.h; sourceTree = "<group>"; };
+		3047705E1C0C7F7200282E75 /* ASPExtendedAttributeItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPExtendedAttributeItems.m; sourceTree = "<group>"; };
+		3047705F1C0C7F7200282E75 /* ASPExtendedAttributeItemsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPExtendedAttributeItemsResponse.h; sourceTree = "<group>"; };
+		304770601C0C7F7200282E75 /* ASPExtendedAttributeItemsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPExtendedAttributeItemsResponse.m; sourceTree = "<group>"; };
+		304770611C0C7F7200282E75 /* ASPExtendedAttributeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPExtendedAttributeResponse.h; sourceTree = "<group>"; };
+		304770621C0C7F7200282E75 /* ASPExtendedAttributeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPExtendedAttributeResponse.m; sourceTree = "<group>"; };
+		304770631C0C7F7200282E75 /* ASPLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPLink.h; sourceTree = "<group>"; };
+		304770641C0C7F7200282E75 /* ASPLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPLink.m; sourceTree = "<group>"; };
+		304770651C0C7F7200282E75 /* ASPOutlineCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPOutlineCode.h; sourceTree = "<group>"; };
+		304770661C0C7F7200282E75 /* ASPOutlineCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPOutlineCode.m; sourceTree = "<group>"; };
+		304770671C0C7F7200282E75 /* ASPOutlineCodeDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPOutlineCodeDefinition.h; sourceTree = "<group>"; };
+		304770681C0C7F7200282E75 /* ASPOutlineCodeDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPOutlineCodeDefinition.m; sourceTree = "<group>"; };
+		304770691C0C7F7200282E75 /* ASPOutlineCodeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPOutlineCodeItem.h; sourceTree = "<group>"; };
+		3047706A1C0C7F7200282E75 /* ASPOutlineCodeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPOutlineCodeItem.m; sourceTree = "<group>"; };
+		3047706B1C0C7F7200282E75 /* ASPOutlineCodeItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPOutlineCodeItems.h; sourceTree = "<group>"; };
+		3047706C1C0C7F7200282E75 /* ASPOutlineCodeItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPOutlineCodeItems.m; sourceTree = "<group>"; };
+		3047706D1C0C7F7200282E75 /* ASPOutlineCodeItemsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPOutlineCodeItemsResponse.h; sourceTree = "<group>"; };
+		3047706E1C0C7F7200282E75 /* ASPOutlineCodeItemsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPOutlineCodeItemsResponse.m; sourceTree = "<group>"; };
+		3047706F1C0C7F7200282E75 /* ASPOutlineCodeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPOutlineCodeResponse.h; sourceTree = "<group>"; };
+		304770701C0C7F7200282E75 /* ASPOutlineCodeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPOutlineCodeResponse.m; sourceTree = "<group>"; };
+		304770711C0C7F7200282E75 /* ASPOutlineMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPOutlineMask.h; sourceTree = "<group>"; };
+		304770721C0C7F7200282E75 /* ASPOutlineMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPOutlineMask.m; sourceTree = "<group>"; };
+		304770731C0C7F7200282E75 /* ASPOutlineValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPOutlineValue.h; sourceTree = "<group>"; };
+		304770741C0C7F7200282E75 /* ASPOutlineValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPOutlineValue.m; sourceTree = "<group>"; };
+		304770751C0C7F7200282E75 /* ASPRecurringInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPRecurringInfo.h; sourceTree = "<group>"; };
+		304770761C0C7F7200282E75 /* ASPRecurringInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPRecurringInfo.m; sourceTree = "<group>"; };
+		304770771C0C7F7200282E75 /* ASPRecurringInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPRecurringInfoResponse.h; sourceTree = "<group>"; };
+		304770781C0C7F7200282E75 /* ASPRecurringInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPRecurringInfoResponse.m; sourceTree = "<group>"; };
+		304770791C0C7F7200282E75 /* ASPResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPResource.h; sourceTree = "<group>"; };
+		3047707A1C0C7F7200282E75 /* ASPResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPResource.m; sourceTree = "<group>"; };
+		3047707B1C0C7F7200282E75 /* ASPResourceAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPResourceAssignment.h; sourceTree = "<group>"; };
+		3047707C1C0C7F7200282E75 /* ASPResourceAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPResourceAssignment.m; sourceTree = "<group>"; };
+		3047707D1C0C7F7200282E75 /* ASPResourceAssignments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPResourceAssignments.h; sourceTree = "<group>"; };
+		3047707E1C0C7F7200282E75 /* ASPResourceAssignments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPResourceAssignments.m; sourceTree = "<group>"; };
+		3047707F1C0C7F7200282E75 /* ASPResourceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPResourceItem.h; sourceTree = "<group>"; };
+		304770801C0C7F7200282E75 /* ASPResourceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPResourceItem.m; sourceTree = "<group>"; };
+		304770811C0C7F7200282E75 /* ASPResourceItemResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPResourceItemResponse.h; sourceTree = "<group>"; };
+		304770821C0C7F7200282E75 /* ASPResourceItemResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPResourceItemResponse.m; sourceTree = "<group>"; };
+		304770831C0C7F7200282E75 /* ASPResourceItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPResourceItems.h; sourceTree = "<group>"; };
+		304770841C0C7F7200282E75 /* ASPResourceItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPResourceItems.m; sourceTree = "<group>"; };
+		304770851C0C7F7200282E75 /* ASPResourceItemsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPResourceItemsResponse.h; sourceTree = "<group>"; };
+		304770861C0C7F7200282E75 /* ASPResourceItemsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPResourceItemsResponse.m; sourceTree = "<group>"; };
+		304770871C0C7F7200282E75 /* ASPResourceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPResourceResponse.h; sourceTree = "<group>"; };
+		304770881C0C7F7200282E75 /* ASPResourceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPResourceResponse.m; sourceTree = "<group>"; };
+		304770891C0C7F7200282E75 /* ASPTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTask.h; sourceTree = "<group>"; };
+		3047708A1C0C7F7200282E75 /* ASPTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTask.m; sourceTree = "<group>"; };
+		3047708B1C0C7F7200282E75 /* ASPTaskDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTaskDocument.h; sourceTree = "<group>"; };
+		3047708C1C0C7F7200282E75 /* ASPTaskDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTaskDocument.m; sourceTree = "<group>"; };
+		3047708D1C0C7F7200282E75 /* ASPTaskDocumentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTaskDocumentResponse.h; sourceTree = "<group>"; };
+		3047708E1C0C7F7200282E75 /* ASPTaskDocumentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTaskDocumentResponse.m; sourceTree = "<group>"; };
+		3047708F1C0C7F7200282E75 /* ASPTaskItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTaskItem.h; sourceTree = "<group>"; };
+		304770901C0C7F7200282E75 /* ASPTaskItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTaskItem.m; sourceTree = "<group>"; };
+		304770911C0C7F7200282E75 /* ASPTaskItemResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTaskItemResponse.h; sourceTree = "<group>"; };
+		304770921C0C7F7200282E75 /* ASPTaskItemResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTaskItemResponse.m; sourceTree = "<group>"; };
+		304770931C0C7F7200282E75 /* ASPTaskItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTaskItems.h; sourceTree = "<group>"; };
+		304770941C0C7F7200282E75 /* ASPTaskItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTaskItems.m; sourceTree = "<group>"; };
+		304770951C0C7F7200282E75 /* ASPTaskItemsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTaskItemsResponse.h; sourceTree = "<group>"; };
+		304770961C0C7F7200282E75 /* ASPTaskItemsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTaskItemsResponse.m; sourceTree = "<group>"; };
+		304770971C0C7F7200282E75 /* ASPTaskLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTaskLink.h; sourceTree = "<group>"; };
+		304770981C0C7F7200282E75 /* ASPTaskLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTaskLink.m; sourceTree = "<group>"; };
+		304770991C0C7F7200282E75 /* ASPTaskLinkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTaskLinkResponse.h; sourceTree = "<group>"; };
+		3047709A1C0C7F7200282E75 /* ASPTaskLinkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTaskLinkResponse.m; sourceTree = "<group>"; };
+		3047709B1C0C7F7200282E75 /* ASPTaskLinksResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTaskLinksResponse.h; sourceTree = "<group>"; };
+		3047709C1C0C7F7200282E75 /* ASPTaskLinksResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTaskLinksResponse.m; sourceTree = "<group>"; };
+		3047709D1C0C7F7200282E75 /* ASPTaskResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPTaskResponse.h; sourceTree = "<group>"; };
+		3047709E1C0C7F7200282E75 /* ASPTaskResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTaskResponse.m; sourceTree = "<group>"; };
+		3047709F1C0C7F7200282E75 /* ASPValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPValue.h; sourceTree = "<group>"; };
+		304770A01C0C7F7200282E75 /* ASPValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPValue.m; sourceTree = "<group>"; };
+		304770A11C0C7F7200282E75 /* ASPWBSCodeMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPWBSCodeMask.h; sourceTree = "<group>"; };
+		304770A21C0C7F7200282E75 /* ASPWBSCodeMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPWBSCodeMask.m; sourceTree = "<group>"; };
+		304770A31C0C7F7200282E75 /* ASPWBSDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPWBSDefinition.h; sourceTree = "<group>"; };
+		304770A41C0C7F7200282E75 /* ASPWBSDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPWBSDefinition.m; sourceTree = "<group>"; };
+		304770A51C0C7F7200282E75 /* ASPWBSDefinitionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPWBSDefinitionResponse.h; sourceTree = "<group>"; };
+		304770A61C0C7F7200282E75 /* ASPWBSDefinitionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPWBSDefinitionResponse.m; sourceTree = "<group>"; };
+		304770A71C0C7F7200282E75 /* ASPWeekDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPWeekDay.h; sourceTree = "<group>"; };
+		304770A81C0C7F7200282E75 /* ASPWeekDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPWeekDay.m; sourceTree = "<group>"; };
+		304770A91C0C7F7200282E75 /* ASPWorkingTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPWorkingTime.h; sourceTree = "<group>"; };
+		304770AA1C0C7F7200282E75 /* ASPWorkingTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPWorkingTime.m; sourceTree = "<group>"; };
+		304770E91C0C7F7E00282E75 /* ExtendedAttribute.mpp */ = {isa = PBXFileReference; lastKnownFileType = file; path = ExtendedAttribute.mpp; sourceTree = "<group>"; };
+		304770EA1C0C7F7E00282E75 /* Outlinecode.mpp */ = {isa = PBXFileReference; lastKnownFileType = file; path = Outlinecode.mpp; sourceTree = "<group>"; };
+		304770EB1C0C7F7E00282E75 /* ResourceWithExtAttribs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ResourceWithExtAttribs.xml; sourceTree = "<group>"; };
+		304770EC1C0C7F7E00282E75 /* sample-project-2.mpp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sample-project-2.mpp"; sourceTree = "<group>"; };
+		304770ED1C0C7F7E00282E75 /* sample-project.mpp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sample-project.mpp"; sourceTree = "<group>"; };
+		304770EF1C0C7F7E00282E75 /* ASPTasksApiTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPTasksApiTestCase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		304770031C0C7DED00282E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3047701C1C0C7DED00282E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30476FFD1C0C7DED00282E75 = {
+			isa = PBXGroup;
+			children = (
+				304770081C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_C */,
+				304770221C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_CTests */,
+				304770071C0C7DED00282E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		304770071C0C7DED00282E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				304770061C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_C.app */,
+				3047701F1C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_CTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		304770081C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_C */ = {
+			isa = PBXGroup;
+			children = (
+				3047702E1C0C7F7200282E75 /* tasks */,
+				3047700C1C0C7DED00282E75 /* AppDelegate.h */,
+				3047700D1C0C7DED00282E75 /* AppDelegate.m */,
+				3047700F1C0C7DED00282E75 /* ViewController.h */,
+				304770101C0C7DED00282E75 /* ViewController.m */,
+				304770121C0C7DED00282E75 /* Main.storyboard */,
+				304770151C0C7DED00282E75 /* Assets.xcassets */,
+				304770171C0C7DED00282E75 /* LaunchScreen.storyboard */,
+				3047701A1C0C7DED00282E75 /* Info.plist */,
+				304770091C0C7DED00282E75 /* Supporting Files */,
+			);
+			path = Aspose.Tasks_Cloud_SDK_For_Objective_C;
+			sourceTree = "<group>";
+		};
+		304770091C0C7DED00282E75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3047700A1C0C7DED00282E75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		304770221C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_CTests */ = {
+			isa = PBXGroup;
+			children = (
+				304770E81C0C7F7E00282E75 /* resources */,
+				304770EE1C0C7F7E00282E75 /* tasks */,
+				304770231C0C7DED00282E75 /* Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m */,
+				304770251C0C7DED00282E75 /* Info.plist */,
+			);
+			path = Aspose.Tasks_Cloud_SDK_For_Objective_CTests;
+			sourceTree = "<group>";
+		};
+		3047702E1C0C7F7200282E75 /* tasks */ = {
+			isa = PBXGroup;
+			children = (
+				3047702F1C0C7F7200282E75 /* api */,
+				304770321C0C7F7200282E75 /* model */,
+			);
+			path = tasks;
+			sourceTree = "<group>";
+		};
+		3047702F1C0C7F7200282E75 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				304770301C0C7F7200282E75 /* ASPTasksApi.h */,
+				304770311C0C7F7200282E75 /* ASPTasksApi.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		304770321C0C7F7200282E75 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				304770331C0C7F7200282E75 /* ASPAssignmentItem.h */,
+				304770341C0C7F7200282E75 /* ASPAssignmentItem.m */,
+				304770351C0C7F7200282E75 /* ASPAssignmentItemResponse.h */,
+				304770361C0C7F7200282E75 /* ASPAssignmentItemResponse.m */,
+				304770371C0C7F7200282E75 /* ASPAssignmentItems.h */,
+				304770381C0C7F7200282E75 /* ASPAssignmentItems.m */,
+				304770391C0C7F7200282E75 /* ASPAssignmentItemsResponse.h */,
+				3047703A1C0C7F7200282E75 /* ASPAssignmentItemsResponse.m */,
+				3047703B1C0C7F7200282E75 /* ASPAssignmentResponse.h */,
+				3047703C1C0C7F7200282E75 /* ASPAssignmentResponse.m */,
+				3047703D1C0C7F7200282E75 /* ASPAssignmentsResponse.h */,
+				3047703E1C0C7F7200282E75 /* ASPAssignmentsResponse.m */,
+				3047703F1C0C7F7200282E75 /* ASPCalendar.h */,
+				304770401C0C7F7200282E75 /* ASPCalendar.m */,
+				304770411C0C7F7200282E75 /* ASPCalendarException.h */,
+				304770421C0C7F7200282E75 /* ASPCalendarException.m */,
+				304770431C0C7F7200282E75 /* ASPCalendarExceptionsResponse.h */,
+				304770441C0C7F7200282E75 /* ASPCalendarExceptionsResponse.m */,
+				304770451C0C7F7200282E75 /* ASPCalendarItem.h */,
+				304770461C0C7F7200282E75 /* ASPCalendarItem.m */,
+				304770471C0C7F7200282E75 /* ASPCalendarItemResponse.h */,
+				304770481C0C7F7200282E75 /* ASPCalendarItemResponse.m */,
+				304770491C0C7F7200282E75 /* ASPCalendarItems.h */,
+				3047704A1C0C7F7200282E75 /* ASPCalendarItems.m */,
+				3047704B1C0C7F7200282E75 /* ASPCalendarItemsResponse.h */,
+				3047704C1C0C7F7200282E75 /* ASPCalendarItemsResponse.m */,
+				3047704D1C0C7F7200282E75 /* ASPCalendarResponse.h */,
+				3047704E1C0C7F7200282E75 /* ASPCalendarResponse.m */,
+				3047704F1C0C7F7200282E75 /* ASPDocumentProperties.h */,
+				304770501C0C7F7200282E75 /* ASPDocumentProperties.m */,
+				304770511C0C7F7200282E75 /* ASPDocumentPropertiesResponse.h */,
+				304770521C0C7F7200282E75 /* ASPDocumentPropertiesResponse.m */,
+				304770531C0C7F7200282E75 /* ASPDocumentProperty.h */,
+				304770541C0C7F7200282E75 /* ASPDocumentProperty.m */,
+				304770551C0C7F7200282E75 /* ASPDocumentPropertyResponse.h */,
+				304770561C0C7F7200282E75 /* ASPDocumentPropertyResponse.m */,
+				304770571C0C7F7200282E75 /* ASPExtendedAttribute.h */,
+				304770581C0C7F7200282E75 /* ASPExtendedAttribute.m */,
+				304770591C0C7F7200282E75 /* ASPExtendedAttributeDefinition.h */,
+				3047705A1C0C7F7200282E75 /* ASPExtendedAttributeDefinition.m */,
+				3047705B1C0C7F7200282E75 /* ASPExtendedAttributeItem.h */,
+				3047705C1C0C7F7200282E75 /* ASPExtendedAttributeItem.m */,
+				3047705D1C0C7F7200282E75 /* ASPExtendedAttributeItems.h */,
+				3047705E1C0C7F7200282E75 /* ASPExtendedAttributeItems.m */,
+				3047705F1C0C7F7200282E75 /* ASPExtendedAttributeItemsResponse.h */,
+				304770601C0C7F7200282E75 /* ASPExtendedAttributeItemsResponse.m */,
+				304770611C0C7F7200282E75 /* ASPExtendedAttributeResponse.h */,
+				304770621C0C7F7200282E75 /* ASPExtendedAttributeResponse.m */,
+				304770631C0C7F7200282E75 /* ASPLink.h */,
+				304770641C0C7F7200282E75 /* ASPLink.m */,
+				304770651C0C7F7200282E75 /* ASPOutlineCode.h */,
+				304770661C0C7F7200282E75 /* ASPOutlineCode.m */,
+				304770671C0C7F7200282E75 /* ASPOutlineCodeDefinition.h */,
+				304770681C0C7F7200282E75 /* ASPOutlineCodeDefinition.m */,
+				304770691C0C7F7200282E75 /* ASPOutlineCodeItem.h */,
+				3047706A1C0C7F7200282E75 /* ASPOutlineCodeItem.m */,
+				3047706B1C0C7F7200282E75 /* ASPOutlineCodeItems.h */,
+				3047706C1C0C7F7200282E75 /* ASPOutlineCodeItems.m */,
+				3047706D1C0C7F7200282E75 /* ASPOutlineCodeItemsResponse.h */,
+				3047706E1C0C7F7200282E75 /* ASPOutlineCodeItemsResponse.m */,
+				3047706F1C0C7F7200282E75 /* ASPOutlineCodeResponse.h */,
+				304770701C0C7F7200282E75 /* ASPOutlineCodeResponse.m */,
+				304770711C0C7F7200282E75 /* ASPOutlineMask.h */,
+				304770721C0C7F7200282E75 /* ASPOutlineMask.m */,
+				304770731C0C7F7200282E75 /* ASPOutlineValue.h */,
+				304770741C0C7F7200282E75 /* ASPOutlineValue.m */,
+				304770751C0C7F7200282E75 /* ASPRecurringInfo.h */,
+				304770761C0C7F7200282E75 /* ASPRecurringInfo.m */,
+				304770771C0C7F7200282E75 /* ASPRecurringInfoResponse.h */,
+				304770781C0C7F7200282E75 /* ASPRecurringInfoResponse.m */,
+				304770791C0C7F7200282E75 /* ASPResource.h */,
+				3047707A1C0C7F7200282E75 /* ASPResource.m */,
+				3047707B1C0C7F7200282E75 /* ASPResourceAssignment.h */,
+				3047707C1C0C7F7200282E75 /* ASPResourceAssignment.m */,
+				3047707D1C0C7F7200282E75 /* ASPResourceAssignments.h */,
+				3047707E1C0C7F7200282E75 /* ASPResourceAssignments.m */,
+				3047707F1C0C7F7200282E75 /* ASPResourceItem.h */,
+				304770801C0C7F7200282E75 /* ASPResourceItem.m */,
+				304770811C0C7F7200282E75 /* ASPResourceItemResponse.h */,
+				304770821C0C7F7200282E75 /* ASPResourceItemResponse.m */,
+				304770831C0C7F7200282E75 /* ASPResourceItems.h */,
+				304770841C0C7F7200282E75 /* ASPResourceItems.m */,
+				304770851C0C7F7200282E75 /* ASPResourceItemsResponse.h */,
+				304770861C0C7F7200282E75 /* ASPResourceItemsResponse.m */,
+				304770871C0C7F7200282E75 /* ASPResourceResponse.h */,
+				304770881C0C7F7200282E75 /* ASPResourceResponse.m */,
+				304770891C0C7F7200282E75 /* ASPTask.h */,
+				3047708A1C0C7F7200282E75 /* ASPTask.m */,
+				3047708B1C0C7F7200282E75 /* ASPTaskDocument.h */,
+				3047708C1C0C7F7200282E75 /* ASPTaskDocument.m */,
+				3047708D1C0C7F7200282E75 /* ASPTaskDocumentResponse.h */,
+				3047708E1C0C7F7200282E75 /* ASPTaskDocumentResponse.m */,
+				3047708F1C0C7F7200282E75 /* ASPTaskItem.h */,
+				304770901C0C7F7200282E75 /* ASPTaskItem.m */,
+				304770911C0C7F7200282E75 /* ASPTaskItemResponse.h */,
+				304770921C0C7F7200282E75 /* ASPTaskItemResponse.m */,
+				304770931C0C7F7200282E75 /* ASPTaskItems.h */,
+				304770941C0C7F7200282E75 /* ASPTaskItems.m */,
+				304770951C0C7F7200282E75 /* ASPTaskItemsResponse.h */,
+				304770961C0C7F7200282E75 /* ASPTaskItemsResponse.m */,
+				304770971C0C7F7200282E75 /* ASPTaskLink.h */,
+				304770981C0C7F7200282E75 /* ASPTaskLink.m */,
+				304770991C0C7F7200282E75 /* ASPTaskLinkResponse.h */,
+				3047709A1C0C7F7200282E75 /* ASPTaskLinkResponse.m */,
+				3047709B1C0C7F7200282E75 /* ASPTaskLinksResponse.h */,
+				3047709C1C0C7F7200282E75 /* ASPTaskLinksResponse.m */,
+				3047709D1C0C7F7200282E75 /* ASPTaskResponse.h */,
+				3047709E1C0C7F7200282E75 /* ASPTaskResponse.m */,
+				3047709F1C0C7F7200282E75 /* ASPValue.h */,
+				304770A01C0C7F7200282E75 /* ASPValue.m */,
+				304770A11C0C7F7200282E75 /* ASPWBSCodeMask.h */,
+				304770A21C0C7F7200282E75 /* ASPWBSCodeMask.m */,
+				304770A31C0C7F7200282E75 /* ASPWBSDefinition.h */,
+				304770A41C0C7F7200282E75 /* ASPWBSDefinition.m */,
+				304770A51C0C7F7200282E75 /* ASPWBSDefinitionResponse.h */,
+				304770A61C0C7F7200282E75 /* ASPWBSDefinitionResponse.m */,
+				304770A71C0C7F7200282E75 /* ASPWeekDay.h */,
+				304770A81C0C7F7200282E75 /* ASPWeekDay.m */,
+				304770A91C0C7F7200282E75 /* ASPWorkingTime.h */,
+				304770AA1C0C7F7200282E75 /* ASPWorkingTime.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		304770E81C0C7F7E00282E75 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				304770E91C0C7F7E00282E75 /* ExtendedAttribute.mpp */,
+				304770EA1C0C7F7E00282E75 /* Outlinecode.mpp */,
+				304770EB1C0C7F7E00282E75 /* ResourceWithExtAttribs.xml */,
+				304770EC1C0C7F7E00282E75 /* sample-project-2.mpp */,
+				304770ED1C0C7F7E00282E75 /* sample-project.mpp */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		304770EE1C0C7F7E00282E75 /* tasks */ = {
+			isa = PBXGroup;
+			children = (
+				304770EF1C0C7F7E00282E75 /* ASPTasksApiTestCase.m */,
+			);
+			path = tasks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		304770051C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304770281C0C7DED00282E75 /* Build configuration list for PBXNativeTarget "Aspose.Tasks_Cloud_SDK_For_Objective_C" */;
+			buildPhases = (
+				304770021C0C7DED00282E75 /* Sources */,
+				304770031C0C7DED00282E75 /* Frameworks */,
+				304770041C0C7DED00282E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspose.Tasks_Cloud_SDK_For_Objective_C;
+			productName = Aspose.Tasks_Cloud_SDK_For_Objective_C;
+			productReference = 304770061C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_C.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3047701E1C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_CTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3047702B1C0C7DED00282E75 /* Build configuration list for PBXNativeTarget "Aspose.Tasks_Cloud_SDK_For_Objective_CTests" */;
+			buildPhases = (
+				3047701B1C0C7DED00282E75 /* Sources */,
+				3047701C1C0C7DED00282E75 /* Frameworks */,
+				3047701D1C0C7DED00282E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				304770211C0C7DED00282E75 /* PBXTargetDependency */,
+			);
+			name = Aspose.Tasks_Cloud_SDK_For_Objective_CTests;
+			productName = Aspose.Tasks_Cloud_SDK_For_Objective_CTests;
+			productReference = 3047701F1C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_CTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30476FFE1C0C7DED00282E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Aspose;
+				TargetAttributes = {
+					304770051C0C7DED00282E75 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3047701E1C0C7DED00282E75 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 304770051C0C7DED00282E75;
+					};
+				};
+			};
+			buildConfigurationList = 304770011C0C7DED00282E75 /* Build configuration list for PBXProject "Aspose.Tasks_Cloud_SDK_For_Objective_C" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30476FFD1C0C7DED00282E75;
+			productRefGroup = 304770071C0C7DED00282E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				304770051C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_C */,
+				3047701E1C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_CTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		304770041C0C7DED00282E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304770F71C0C7F8500282E75 /* Outlinecode.mpp in Resources */,
+				304770F81C0C7F8500282E75 /* ResourceWithExtAttribs.xml in Resources */,
+				304770191C0C7DED00282E75 /* LaunchScreen.storyboard in Resources */,
+				304770FA1C0C7F8500282E75 /* sample-project.mpp in Resources */,
+				304770F61C0C7F8500282E75 /* ExtendedAttribute.mpp in Resources */,
+				304770161C0C7DED00282E75 /* Assets.xcassets in Resources */,
+				304770F91C0C7F8500282E75 /* sample-project-2.mpp in Resources */,
+				304770141C0C7DED00282E75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3047701D1C0C7DED00282E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304770F31C0C7F7E00282E75 /* sample-project-2.mpp in Resources */,
+				304770F01C0C7F7E00282E75 /* ExtendedAttribute.mpp in Resources */,
+				304770F41C0C7F7E00282E75 /* sample-project.mpp in Resources */,
+				304770F21C0C7F7E00282E75 /* ResourceWithExtAttribs.xml in Resources */,
+				304770F11C0C7F7E00282E75 /* Outlinecode.mpp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		304770021C0C7DED00282E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304770CA1C0C7F7200282E75 /* ASPOutlineCodeResponse.m in Sources */,
+				304770E01C0C7F7200282E75 /* ASPTaskLinksResponse.m in Sources */,
+				304770D21C0C7F7200282E75 /* ASPResourceItem.m in Sources */,
+				304770C91C0C7F7200282E75 /* ASPOutlineCodeItemsResponse.m in Sources */,
+				304770B01C0C7F7200282E75 /* ASPAssignmentResponse.m in Sources */,
+				304770CE1C0C7F7200282E75 /* ASPRecurringInfoResponse.m in Sources */,
+				304770CF1C0C7F7200282E75 /* ASPResource.m in Sources */,
+				304770D31C0C7F7200282E75 /* ASPResourceItemResponse.m in Sources */,
+				304770C11C0C7F7200282E75 /* ASPExtendedAttributeItems.m in Sources */,
+				304770B51C0C7F7200282E75 /* ASPCalendarItem.m in Sources */,
+				304770D11C0C7F7200282E75 /* ASPResourceAssignments.m in Sources */,
+				304770E51C0C7F7200282E75 /* ASPWBSDefinitionResponse.m in Sources */,
+				304770DA1C0C7F7200282E75 /* ASPTaskItem.m in Sources */,
+				304770C81C0C7F7200282E75 /* ASPOutlineCodeItems.m in Sources */,
+				304770DF1C0C7F7200282E75 /* ASPTaskLinkResponse.m in Sources */,
+				304770AC1C0C7F7200282E75 /* ASPAssignmentItem.m in Sources */,
+				304770D51C0C7F7200282E75 /* ASPResourceItemsResponse.m in Sources */,
+				304770BD1C0C7F7200282E75 /* ASPDocumentPropertyResponse.m in Sources */,
+				304770B31C0C7F7200282E75 /* ASPCalendarException.m in Sources */,
+				304770AB1C0C7F7200282E75 /* ASPTasksApi.m in Sources */,
+				304770E41C0C7F7200282E75 /* ASPWBSDefinition.m in Sources */,
+				304770111C0C7DED00282E75 /* ViewController.m in Sources */,
+				304770CB1C0C7F7200282E75 /* ASPOutlineMask.m in Sources */,
+				304770B11C0C7F7200282E75 /* ASPAssignmentsResponse.m in Sources */,
+				304770E21C0C7F7200282E75 /* ASPValue.m in Sources */,
+				304770B21C0C7F7200282E75 /* ASPCalendar.m in Sources */,
+				304770D61C0C7F7200282E75 /* ASPResourceResponse.m in Sources */,
+				304770BA1C0C7F7200282E75 /* ASPDocumentProperties.m in Sources */,
+				3047700E1C0C7DED00282E75 /* AppDelegate.m in Sources */,
+				304770B91C0C7F7200282E75 /* ASPCalendarResponse.m in Sources */,
+				304770C31C0C7F7200282E75 /* ASPExtendedAttributeResponse.m in Sources */,
+				304770C21C0C7F7200282E75 /* ASPExtendedAttributeItemsResponse.m in Sources */,
+				3047700B1C0C7DED00282E75 /* main.m in Sources */,
+				304770D71C0C7F7200282E75 /* ASPTask.m in Sources */,
+				304770B41C0C7F7200282E75 /* ASPCalendarExceptionsResponse.m in Sources */,
+				304770C01C0C7F7200282E75 /* ASPExtendedAttributeItem.m in Sources */,
+				304770DD1C0C7F7200282E75 /* ASPTaskItemsResponse.m in Sources */,
+				304770BB1C0C7F7200282E75 /* ASPDocumentPropertiesResponse.m in Sources */,
+				304770C41C0C7F7200282E75 /* ASPLink.m in Sources */,
+				304770AF1C0C7F7200282E75 /* ASPAssignmentItemsResponse.m in Sources */,
+				304770AE1C0C7F7200282E75 /* ASPAssignmentItems.m in Sources */,
+				304770CC1C0C7F7200282E75 /* ASPOutlineValue.m in Sources */,
+				304770B71C0C7F7200282E75 /* ASPCalendarItems.m in Sources */,
+				304770C61C0C7F7200282E75 /* ASPOutlineCodeDefinition.m in Sources */,
+				304770BF1C0C7F7200282E75 /* ASPExtendedAttributeDefinition.m in Sources */,
+				304770B81C0C7F7200282E75 /* ASPCalendarItemsResponse.m in Sources */,
+				304770DE1C0C7F7200282E75 /* ASPTaskLink.m in Sources */,
+				304770AD1C0C7F7200282E75 /* ASPAssignmentItemResponse.m in Sources */,
+				304770D01C0C7F7200282E75 /* ASPResourceAssignment.m in Sources */,
+				304770C51C0C7F7200282E75 /* ASPOutlineCode.m in Sources */,
+				304770E61C0C7F7200282E75 /* ASPWeekDay.m in Sources */,
+				304770BC1C0C7F7200282E75 /* ASPDocumentProperty.m in Sources */,
+				304770CD1C0C7F7200282E75 /* ASPRecurringInfo.m in Sources */,
+				304770E31C0C7F7200282E75 /* ASPWBSCodeMask.m in Sources */,
+				304770DB1C0C7F7200282E75 /* ASPTaskItemResponse.m in Sources */,
+				304770D81C0C7F7200282E75 /* ASPTaskDocument.m in Sources */,
+				304770D91C0C7F7200282E75 /* ASPTaskDocumentResponse.m in Sources */,
+				304770DC1C0C7F7200282E75 /* ASPTaskItems.m in Sources */,
+				304770C71C0C7F7200282E75 /* ASPOutlineCodeItem.m in Sources */,
+				304770D41C0C7F7200282E75 /* ASPResourceItems.m in Sources */,
+				304770B61C0C7F7200282E75 /* ASPCalendarItemResponse.m in Sources */,
+				304770E11C0C7F7200282E75 /* ASPTaskResponse.m in Sources */,
+				304770BE1C0C7F7200282E75 /* ASPExtendedAttribute.m in Sources */,
+				304770E71C0C7F7200282E75 /* ASPWorkingTime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3047701B1C0C7DED00282E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304770F51C0C7F7E00282E75 /* ASPTasksApiTestCase.m in Sources */,
+				304770241C0C7DED00282E75 /* Aspose_Tasks_Cloud_SDK_For_Objective_CTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		304770211C0C7DED00282E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 304770051C0C7DED00282E75 /* Aspose.Tasks_Cloud_SDK_For_Objective_C */;
+			targetProxy = 304770201C0C7DED00282E75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		304770121C0C7DED00282E75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304770131C0C7DED00282E75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		304770171C0C7DED00282E75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304770181C0C7DED00282E75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		304770261C0C7DED00282E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		304770271C0C7DED00282E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		304770291C0C7DED00282E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aspose.Tasks_Cloud_SDK_For_Objective_C/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspose.Aspose-Tasks-Cloud-SDK-For-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3047702A1C0C7DED00282E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aspose.Tasks_Cloud_SDK_For_Objective_C/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspose.Aspose-Tasks-Cloud-SDK-For-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3047702C1C0C7DED00282E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Aspose.Tasks_Cloud_SDK_For_Objective_CTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspose.Aspose-Tasks-Cloud-SDK-For-Objective-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aspose.Tasks_Cloud_SDK_For_Objective_C.app/Aspose.Tasks_Cloud_SDK_For_Objective_C";
+			};
+			name = Debug;
+		};
+		3047702D1C0C7DED00282E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Aspose.Tasks_Cloud_SDK_For_Objective_CTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspose.Aspose-Tasks-Cloud-SDK-For-Objective-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aspose.Tasks_Cloud_SDK_For_Objective_C.app/Aspose.Tasks_Cloud_SDK_For_Objective_C";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		304770011C0C7DED00282E75 /* Build configuration list for PBXProject "Aspose.Tasks_Cloud_SDK_For_Objective_C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304770261C0C7DED00282E75 /* Debug */,
+				304770271C0C7DED00282E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		304770281C0C7DED00282E75 /* Build configuration list for PBXNativeTarget "Aspose.Tasks_Cloud_SDK_For_Objective_C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304770291C0C7DED00282E75 /* Debug */,
+				3047702A1C0C7DED00282E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3047702B1C0C7DED00282E75 /* Build configuration list for PBXNativeTarget "Aspose.Tasks_Cloud_SDK_For_Objective_CTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3047702C1C0C7DED00282E75 /* Debug */,
+				3047702D1C0C7DED00282E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30476FFE1C0C7DED00282E75 /* Project object */;
+}
