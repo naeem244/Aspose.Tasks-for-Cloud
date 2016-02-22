@@ -1,0 +1,11 @@
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\bin\Debug\TasksTest.dll
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\bin\Debug\TasksTest.pdb
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\bin\Debug\Aspose.Storage-Cloud.dll
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\bin\Debug\Aspose.Tasks-Cloud.dll
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\bin\Debug\LinqBridge.dll
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\bin\Debug\Newtonsoft.Json.dll
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\bin\Debug\Aspose.Tasks-Cloud.pdb
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\bin\Debug\Newtonsoft.Json.xml
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\obj\Debug\TasksTest.csprojResolveAssemblyReference.cache
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\obj\Debug\TasksTest.dll
+D:\aspose\swagger\swagger-codegen-2.0.17\aspose\csharp\TasksTest\obj\Debug\TasksTest.pdb
