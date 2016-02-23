@@ -17,8 +17,8 @@ namespace TasksTest
     public class TestTasksApi
     {
 
-        protected string APIKEY = "76706419dc70d5a2c37421570d1405c8";
-        protected string APPSID = "b8d0bf27-62f0-4b5c-a9d7-83268ac53861";
+        protected string APIKEY = "xxxxxx";
+        protected string APPSID = "xxxxxx";
         protected string BASEPATH = "http://api.aspose.com/v1.1";
         private TestContext testContextInstance;
 
