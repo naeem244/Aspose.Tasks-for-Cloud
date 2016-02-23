@@ -18,6 +18,7 @@ Directory | Description
 [iOS SDK](SDKs/Aspose.Tasks_Cloud_SDK_For_Objective_C) | Aspose.Tasks Cloud SDK for Objective C
 [Ruby SDK](SDKs/Aspose.Tasks_Cloud_SDK_for_Ruby) | Aspose.Tasks Cloud SDK for Ruby
 [Node.js SDK](SDKs/Aspose.Tasks_Cloud_SDK_for_NodeJS) | Aspose.Tasks Cloud SDK for Node.js
+[.NET SDK](SDKs/Aspose.Tasks_Cloud_SDK_for_CSharp) | Aspose.Tasks Cloud SDK for .NET
 
 ## Resources
 
