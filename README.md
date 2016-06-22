@@ -12,14 +12,14 @@ Aspose.Tasks for Cloud is implemented as a REST API. If you use SDK, it hides th
 
 Directory | Description
 --------- | -----------
-[Java SDK](SDKs/Aspose.Tasks_Cloud_SDK_for_Java)  |  Aspose.Tasks Cloud SDK for Java.
+[Java SDK](SDKs/Aspose.Tasks-Cloud-SDK-for-Java)  |  Aspose.Tasks Cloud SDK for Java.
 [Android SDK](SDKs/Aspose.Tasks-Cloud-SDK-for-Android) | Aspose.Tasks Cloud SDK for Android.
-[PHP SDK](SDKs/Aspose.Tasks_Cloud_SDK_for_PHP)  |  Aspose.Tasks Cloud SDK for PHP.
-[Python SDK](SDKs/Aspose.Tasks_Cloud_SDK_for_Python)  |  Aspose.Tasks Cloud SDK for Python.
-[iOS SDK](SDKs/Aspose.Tasks_Cloud_SDK_For_Objective_C) | Aspose.Tasks Cloud SDK for Objective C
-[Ruby SDK](SDKs/Aspose.Tasks_Cloud_SDK_for_Ruby) | Aspose.Tasks Cloud SDK for Ruby
-[Node.js SDK](SDKs/Aspose.Tasks_Cloud_SDK_for_NodeJS) | Aspose.Tasks Cloud SDK for Node.js
-[.NET SDK](SDKs/Aspose.Tasks_Cloud_SDK_for_CSharp) | Aspose.Tasks Cloud SDK for .NET
+[PHP SDK](SDKs/Aspose.Tasks-Cloud-SDK-for-PHP)  |  Aspose.Tasks Cloud SDK for PHP.
+[Python SDK](SDKs/Aspose.Tasks-Cloud-SDK-for-Python)  |  Aspose.Tasks Cloud SDK for Python.
+[iOS SDK](SDKs/Aspose.Tasks-Cloud-SDK-for-Objective-C) | Aspose.Tasks Cloud SDK for Objective C
+[Ruby SDK](SDKs/Aspose.Tasks-Cloud-SDK-for-Ruby) | Aspose.Tasks Cloud SDK for Ruby
+[Node.js SDK](SDKs/Aspose.Tasks-Cloud-SDK-for-NodeJS) | Aspose.Tasks Cloud SDK for Node.js
+[.NET SDK](SDKs/Aspose.Tasks-Cloud-SDK-for-CSharp) | Aspose.Tasks Cloud SDK for .NET
 [Perl SDK](SDKs/Aspose.Tasks-Cloud-SDK-for-Perl) | Aspose.Tasks Cloud SDK for Perl
 
 ## Resources
