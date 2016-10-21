@@ -1,10 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsposeTasks", "AsposeTasks.csproj", "{37FB409B-EDC6-44FD-858B-94F23CA23DD3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksTest", "..\TasksTest\TasksTest.csproj", "{6DDF2492-B4AC-49E8-AEB7-6686C676A9C1}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF84724A-FD56-4EC4-B223-0381E8FBA029}"
 	ProjectSection(SolutionItems) = preProject
 		AsposeTasks.vsmdi = AsposeTasks.vsmdi
@@ -12,10 +8,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsposeTasks", "AsposeTasks.csproj", "{37FB409B-EDC6-44FD-858B-94F23CA23DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksTest", "TasksTest\TasksTest.csproj", "{6DDF2492-B4AC-49E8-AEB7-6686C676A9C1}"
+EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = AsposeTasks.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
